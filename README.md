@@ -4,7 +4,6 @@ Enterprise-grade backend service for **Service Level Agreement (SLA) evaluation,
 
 This project is designed with an **industry-first mindset**, focusing on clean structure, backend reliability, and extensibility for enterprise and industrial systems.
 
----
 
 ## Overview
 
@@ -17,7 +16,6 @@ The SLA Engine Backend provides APIs to:
 The system is intentionally backend-focused and avoids UI or automation hype.  
 AI/ML, where explored, is treated as **decision support**, not autonomous control.
 
----
 
 ## Tech Stack
 
@@ -28,7 +26,6 @@ AI/ML, where explored, is treated as **decision support**, not autonomous contro
 - **GitHub Actions** (CI)
 - SQL Server (planned / via docker-compose)
 
----
 
 ## Repository Structure
 ````
@@ -57,7 +54,6 @@ sla-engine-backend/
 └── README.md
 ````
 
----
 
 ## Current State
 
@@ -71,7 +67,6 @@ This structure is **intentional** and allows future evolution into:
 - Multiple microservices
 - Shared SLA evaluation libraries
 
----
 
 ## Running the Application (Local)
 
@@ -83,5 +78,6 @@ This structure is **intentional** and allows future evolution into:
 ```bash
 dotnet restore
 dotnet run --project src/Sla-engine-backend
+
 
 
