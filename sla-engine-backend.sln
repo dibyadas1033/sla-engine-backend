@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{86586403-8712-4759-919F-0F41F4B50CAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sla-engine-backend", "src\Sla-engine-backend\Sla-engine-backend.csproj", "{3BA4401D-86A8-4EFE-851E-F299B434CAE4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{BE041003-6C97-49CA-BE22-3008CA546C36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLA.Engine.UnitTests", "tests\SLA.Engine.UnitTests\SLA.Engine.UnitTests.csproj", "{195EBE32-E362-4DDC-B679-3DFA365DB59A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3BA4401D-86A8-4EFE-851E-F299B434CAE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BA4401D-86A8-4EFE-851E-F299B434CAE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BA4401D-86A8-4EFE-851E-F299B434CAE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BA4401D-86A8-4EFE-851E-F299B434CAE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{195EBE32-E362-4DDC-B679-3DFA365DB59A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{195EBE32-E362-4DDC-B679-3DFA365DB59A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{195EBE32-E362-4DDC-B679-3DFA365DB59A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{195EBE32-E362-4DDC-B679-3DFA365DB59A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3BA4401D-86A8-4EFE-851E-F299B434CAE4} = {86586403-8712-4759-919F-0F41F4B50CAC}
+		{195EBE32-E362-4DDC-B679-3DFA365DB59A} = {BE041003-6C97-49CA-BE22-3008CA546C36}
+	EndGlobalSection
+EndGlobal

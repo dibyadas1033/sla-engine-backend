@@ -1,0 +1,6 @@
+@Sla_engine_backend_HostAddress = http://localhost:5153
+
+GET {{Sla_engine_backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
