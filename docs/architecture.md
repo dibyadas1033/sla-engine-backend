@@ -117,4 +117,5 @@ Updates SQL DB + triggers dashboard updates
 * Worker jobs ensure system enforces SLAs even if users are inactive.
 
 
-This architecture ensures **real-time SLA enforcement, auditability, and operational transparency**, while remaining **scalable and interview-ready**.
+This architecture ensures **real-time SLA enforcement, auditability, and operational transparency**, while remaining **scalable**.
+
